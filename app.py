@@ -10,4 +10,4 @@ if st.button("Run Model"):
     image = Image.open("result.png")  # Replace 'example.jpg' with your image path
     st.image(image, caption="Result after training with LSTM model", use_column_width=True)
 else:
-    st.write("Run LSTM Model")
+    st.write("Click Run Model to Re Train LSTM Model and see the results.")
